@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             Title="Registro Cliente" 
+             x:Class="Menu_Desplegable.HomePage">
+
+
+    <ContentPage.BackgroundImageSource>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="Android" Value="Fon.jpg" />
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                     Padding="35"
+                     Spacing="20">
+
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         Spacing="10"
+                         Margin="0,20,0,0" IsVisible="true"
+                         x:Name="Agregar">
+                <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray">
+                    <Image Source="perro.png"
+                           Aspect="AspectFit"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                </Frame>
+                <Label Text="Agregar clientes"
+                       VerticalOptions="Center"
+                       FontSize="Large"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         Spacing="10"
+                         Margin="0,20,0,0" IsVisible="false"
+                         x:Name="LISTA">
+                <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray">
+                    <Image Source="perro.png"
+                           Aspect="AspectFit"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                </Frame>
+                <Label Text="Lista de clientes"
+                       VerticalOptions="Center"
+                       FontSize="Large"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <StackLayout x:Name="entryContainer">
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtName"
+                           Placeholder="Cliente"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtCelular"
+                           Placeholder="Celular"
+                           Keyboard="Numeric"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtDireccion"
+                           Placeholder="Direccion"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+            </StackLayout>
+
+            <Button x:Name="BtnInsert"
+                    CornerRadius="25"
+                    Text="Agregar nuevo usuario"
+                    Clicked="BtnInsert_Clicked"
+                    BackgroundColor="#005227"
+                    TextColor="White"/>
+
+          
+            
+            <Button x:Name="BtnAllUser"
+                    CornerRadius="25"
+                    Text="Obtener usuarios"
+                    Clicked="BtnAllUser_Clicked"
+                    BackgroundColor="#005227"
+                    TextColor="WhiteSmoke"/>
+            
+            <Label x:Name="StatusMessage"
+                   FontSize="Medium"
+                   TextColor="WhiteSmoke"/>
+
+            <SearchBar x:Name="BusquedaC"
+Placeholder="Search by name"
+   BackgroundColor="#00726c"
+TextChanged="BusquedaC_TextChanged"
+        IsVisible="false"        />
+
+
+            <ListView x:Name="userList"
+        HasUnevenRows="True"
+                     IsVisible="false">
+            
+     <ListView.ItemTemplate>
+         <DataTemplate>
+             <ViewCell>
+                 <Frame Margin="10"
+                    Padding="10"
+                    BackgroundColor="#87CEFA"
+                    CornerRadius="10"
+                    HasShadow="True">
+                     <StackLayout Orientation="Vertical" 
+                          Spacing="5">
+                                    <Label Text="Nombre:"/>
+                                    <Label Text="{Binding Name}" 
+                              FontSize="Small"
+                              TextColor="Black"/>
+                                    <Label Text="Celular:"/>
+                                    <Label Text="{Binding Celular}" 
+                              FontSize="Small"
+                              TextColor="Black"/>
+                                    <Label Text="Direccion:"/>
+                                    <Label Text="{Binding Direccion}" 
+                              FontSize="Small"
+                              TextColor="Black"/>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+
+                                        <Button Grid.Column="5" Text="Editar" Clicked="Button_Clicked" BackgroundColor="#01796F"  TextColor="White" FontSize="Small" WidthRequest="80" />
+                                        <Button Grid.Column="6" Text="Borrar" Clicked="Button_Clicked_1" BackgroundColor="#01796F"  TextColor="White" FontSize="Small" WidthRequest="80"/>
+                                    </StackLayout>
+
+                                </StackLayout>
+                 </Frame>
+             </ViewCell>
+         </DataTemplate>
+     </ListView.ItemTemplate>
+ </ListView>
+            <StackLayout>
+                <Button x:Name="BtnAtras"
+                        CornerRadius="25"
+                        Text="Atras"
+                        Clicked="BtnAtras_Clicked"
+                        BackgroundColor="#005227"
+                        IsVisible="false"
+                        TextColor="White"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+

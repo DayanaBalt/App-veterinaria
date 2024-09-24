@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu_Desplegable.RegisterPage">
+    <ContentPage.BackgroundImageSource>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="Android" Value="Fon.jpg"/>
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+             Padding="35"
+             Spacing="20"
+             BackgroundColor="#">
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         Spacing="10"
+                         Margin="0,20,0,0">
+
+                <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray" >
+                    <Image Source="perro.png"
+            Aspect="AspectFit"
+            WidthRequest="50"
+            HeightRequest="50"/>
+                </Frame>
+                <Label Text="Agregar Usuario"
+        VerticalOptions="Center"
+        FontSize="Large"
+        TextColor="Black"/>
+
+            </StackLayout>
+
+            <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                <Entry x:Name="NameEntry" 
+                       Placeholder="Name" 
+                       PlaceholderColor="Black"
+                       TextColor="Black"/>
+            </Frame>
+                
+            <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                <Entry x:Name="CelularEntry" Placeholder="Celular"
+                       Keyboard="Numeric"
+                        PlaceholderColor="Black"
+                        TextColor="Black"/>
+            </Frame>
+
+            <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                <Entry x:Name="DireccionEntry" 
+                       Placeholder="Direccion" 
+                       PlaceholderColor="Black"
+                       TextColor="Black"/>
+            </Frame>
+          
+            <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                <Entry x:Name="UsernameEntry" 
+                       Placeholder="Username"
+                       PlaceholderColor="Black"
+                       TextColor="Black"/>
+            </Frame>
+
+            <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                <Entry x:Name="PasswordEntry" 
+                       Placeholder="Password"
+                       PlaceholderColor="Black"
+                       TextColor="Black"
+                       IsPassword="True" />
+            </Frame>
+           
+            <Button Text="Register" 
+                    CornerRadius="25"
+                    Clicked="OnRegisterButtonClicked" 
+                    BackgroundColor="Green"
+                    TextColor="WhiteSmoke"/>
+        </StackLayout>
+    </ContentPage.Content>
+       
+</ContentPage>

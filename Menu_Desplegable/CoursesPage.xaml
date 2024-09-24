@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Registro Mascota"
+             x:Class="Menu_Desplegable.CoursesPage"
+            >
+
+    <ContentPage.BackgroundImageSource>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="Android" Value="Fon.jpg" />
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                     Padding="32"
+                     Spacing="10"
+                     BackgroundColor="#00000">
+
+            <!-- StackLayout contenedor para los Entry -->
+            <StackLayout x:Name="entryContainer"
+                         Orientation="Vertical"
+                         Spacing="10">
+
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="StartAndExpand"
+                             Spacing="10"
+                             Margin="0,20,0,0" IsVisible="true"
+                             x:Name="Agregar">
+                    <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray">
+                        <Image Source="perro.png"
+                               Aspect="AspectFit"
+                               WidthRequest="50"
+                               HeightRequest="50"/>
+                    </Frame>
+                    <Label Text="Registro de mascotas"
+                           VerticalOptions="Center"
+                           FontSize="Large"
+                          TextColor="White" />
+                </StackLayout>
+                
+                
+                <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="StartAndExpand"
+                 Spacing="10"
+                 Margin="0,20,0,0" IsVisible="false"
+                 x:Name="Listass">
+                    <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray">
+                        <Image Source="blanca.jpg"
+                   Aspect="AspectFit"
+                   WidthRequest="50"
+                   HeightRequest="50"/>
+                    </Frame>
+                    <Label Text="Lista de mascotas"
+               VerticalOptions="Center"
+               FontSize="Large"
+              TextColor="White" />
+                </StackLayout>
+
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtName"
+                           Placeholder="Nombre de la Mascota"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtRaza"
+                           Placeholder="Raza"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtPeso"
+                           Placeholder="Peso"
+                           Keyboard="Numeric"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtEspecie"
+                           Placeholder="Especie"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtEdad"
+                           Placeholder="Edad"
+                           Keyboard="Numeric"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Button x:Name="BtnInsert"
+                        CornerRadius="25"
+                        Text="Agregar nueva Mascota"
+                        Clicked="BtnInsert_Clicked"
+                        BackgroundColor="#005227"
+                        TextColor="White"/>
+
+                <Button x:Name="BtnAllUser"
+                        CornerRadius="25"
+                        Text="Obtener mascotas"
+                        Clicked="BtnAllUser_Clicked"
+                        BackgroundColor="#005227"
+                        TextColor="White"/>
+            </StackLayout>
+
+            <Label x:Name="StatusMessage"
+                   FontSize="Medium"
+                   TextColor="Black"/>
+
+            <SearchBar x:Name="BusquedaM"
+       Placeholder="Search by name"
+          BackgroundColor="#41ad90"
+       TextChanged="busquedaMascota_TextChanged"
+               IsVisible="false"        />
+
+            <ListView x:Name="userList"
+                      HasUnevenRows="True"
+                      IsVisible="false">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="10"
+                                   Padding="10"
+                                   BackgroundColor="#87CEFA"
+                                   CornerRadius="10"
+                                   HasShadow="True">
+                                <StackLayout Orientation="Vertical"
+                                             Spacing="5">
+                                    <Label Text="Nombre:"/>
+                                    <Label Text="{Binding Name}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Raza:"/>
+                                    <Label Text="{Binding Raza}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Peso:"/>
+                                    <Label Text="{Binding Peso}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Especie:"/>
+                                    <Label Text="{Binding Especie}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Edad:"/>
+                                    <Label Text="{Binding Edad}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+
+                                        <Button Text="Editar" Clicked="Button_Clicked" BackgroundColor="#01796F"  TextColor="White" FontSize="Small" WidthRequest="80"/>
+                                        <Button Text="Borrar" Clicked="Button_Clicked_1" BackgroundColor="#01796F"  TextColor="White" FontSize="Small" WidthRequest="80"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout>
+                <Button x:Name="BtnAtras"
+                        CornerRadius="25"
+                        Text="Atras"
+                        Clicked="BtnAtras_Clicked"
+                        BackgroundColor="#005227"
+                        IsVisible="false"
+                        TextColor="White"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
+

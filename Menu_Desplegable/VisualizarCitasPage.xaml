@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu_Desplegable.VisualizarCitasPage">
+
+
+    <ContentPage.BackgroundImageSource  >
+        <OnPlatform x:TypeArguments="FileImageSource"  >
+            <On Platform="Android" Value="Fon.jpg"/>
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+
+    <StackLayout Orientation="Vertical"
+                     Padding="32"
+                     Spacing="10"
+                     BackgroundColor="#">
+
+        <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         Spacing="10"
+                         Margin="0,20,0,0">
+
+            <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray" >
+                <Image Source="perro.png"
+            Aspect="AspectFit"
+            WidthRequest="50"
+            HeightRequest="50"/>
+            </Frame>
+            <Label Text="Agenda"
+        VerticalOptions="Center"
+        FontSize="Large"
+        TextColor="White"/>
+
+        </StackLayout>
+
+
+        <SearchBar x:Name="BusquedaCita"
+Placeholder="Search by name"
+   BackgroundColor="White"
+TextChanged="BusquedaCita_TextChanged"
+                />
+
+        <ListView x:Name="CitasListView"
+                   HasUnevenRows="True"
+                  ItemSelected="OnCitaSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Margin="10"
+                               Padding="10"
+                               BackgroundColor="#87CEFA"
+                               CornerRadius="10"
+                               HasShadow="True">
+                            <StackLayout Orientation="Vertical" 
+                                     Spacing="5">
+
+                                <Label Text="{Binding Fecha, StringFormat='{0:dd/MM/yyyy}'}" 
+                                       FontSize="Medium"
+                                       TextColor="Black"    />
+                                <Label Text="Nota:"/>
+                                <Label Text="{Binding Descripcion}" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                                <Label Text="Cliente:"/>
+                                <Label Text="{Binding ClienteNombre}" 
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                                <Label Text="Mascota:"/>
+                                <Label Text="{Binding MascotaNombre}"
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                                <Label Text="Veterinario:"/>
+                                <Label Text="{Binding VeterinarioNombre}"
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                                <Label Text="Especialidad:"/>
+                                <Label Text="{Binding Especialidad}"
+                                       FontSize="Small"
+                                       TextColor="Black"/>
+                                <Label Text="descripcion:"/>
+                                <Label Text="{Binding Desc}"
+                                        FontSize="Small"
+                                        TextColor="Black"/>
+
+                                <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="Center">
+                                    <Frame CornerRadius="15" 
+                                   HeightRequest="50"
+                                   WidthRequest="110"
+                                   BackgroundColor="Transparent"
+                                   BorderColor="Transparent"
+                                   HorizontalOptions="EndAndExpand">
+                                        <Button x:Name="BtnCompletar" 
+                                        Text="Completar" 
+                                        Clicked="BtnCompletar_Clicked" 
+                                   
+                                        CornerRadius="10"
+                                        HeightRequest="80"
+                                        WidthRequest="80"
+                                        BackgroundColor="#1B9CFC"
+                                        TextColor="White"/>
+                                    </Frame>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,158 @@
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.deps.json
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\ref\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.AssemblyReference.cache
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CoursesPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LogoutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfoInputs.cache
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfo.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.CoreCompileInputs.cache
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\refint\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\MOVIL-PRACTICA\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.deps.json
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\ref\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.AssemblyReference.cache
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CoursesPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\DetalleCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LogoutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VeterinariosPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Views\EditarCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfoInputs.cache
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfo.cs
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.CoreCompileInputs.cache
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\refint\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Desktop\Menu_Desplegablecompletado\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VisualizarCitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.deps.json
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\ref\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.AssemblyReference.cache
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CoursesPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\DetalleCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LogoutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VeterinariosPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Views\EditarCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VisualizarCitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfoInputs.cache
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfo.cs
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.CoreCompileInputs.cache
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\refint\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\TRABAJO FINAL DE MOVIL\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.deps.json
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\ref\Menu_Desplegable.dll
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.AssemblyReference.cache
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CitasPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CoursesPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\DetalleCitaPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LogoutPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VeterinariosPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Views\EditarCitaPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VisualizarCitasPage.xaml.g.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfoInputs.cache
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfo.cs
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.CoreCompileInputs.cache
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\refint\Menu_Desplegable.dll
+C:\Users\varga\OneDrive\Desktop\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.deps.json
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\ref\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.AssemblyReference.cache
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CoursesPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\DetalleCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LogoutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VeterinariosPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Views\EditarCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VisualizarCitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfoInputs.cache
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfo.cs
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.CoreCompileInputs.cache
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\refint\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Downloads\completo pero con dudas\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.deps.json
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\ref\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\bin\Debug\netstandard2.0\Menu_Desplegable.pdb
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.AssemblyReference.cache
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\CoursesPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\DetalleCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\LogoutPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VeterinariosPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Views\EditarCitaPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\VisualizarCitasPage.xaml.g.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfoInputs.cache
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.AssemblyInfo.cs
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.csproj.CoreCompileInputs.cache
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\refint\Menu_Desplegable.dll
+C:\Users\Brandy Baltodano\Desktop\proyecto movil\Menu_Desplegable\Menu_Desplegable\obj\Debug\netstandard2.0\Menu_Desplegable.pdb

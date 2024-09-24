@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="Menu_Desplegable.DetalleCitaPage"
+            >
+    <ContentPage.BackgroundImageSource >
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="Android" Value="Fon.jpg" />
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+    
+    
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                 Padding="25"
+                 Spacing="5"
+                 BackgroundColor="#8000000">
+
+            <Label Text="Detalle de la Cita" 
+               TextColor="White"
+               FontSize="Large"
+               HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Cliente:" 
+               TextColor="White"
+               FontSize="Medium"/>
+
+            <Frame BorderColor="Blue" 
+               CornerRadius="5"
+               Padding="0"
+               HasShadow="False">
+                <Picker x:Name="UserPicker" 
+                    Title="Cliente" 
+                    TitleColor="Black"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    IsEnabled="False" />
+            </Frame>
+
+            <Label Text="Mascota:" 
+               TextColor="White"
+               FontSize="Medium"/>
+            <Frame BorderColor="Blue" 
+               CornerRadius="5"
+               Padding="0"
+               HasShadow="False">
+                <Picker x:Name="MascotaPicker" 
+                    Title="Mascota" 
+                    TitleColor="Black"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    IsEnabled="False" />
+            </Frame>
+
+            <Label Text="Veterinario:"
+               TextColor="White"
+               FontSize="Medium"/>
+            <Frame BorderColor="Black" 
+               CornerRadius="5"
+               Padding="0"
+               HasShadow="False">
+                <Picker x:Name="VeterinarioPicker" 
+                    Title="Veterinario" 
+                    TitleColor="Black"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    SelectedIndexChanged="VeterinarioPicker_SelectedIndexChanged"
+                    IsEnabled="False" />
+            </Frame>
+
+            <Label Text="Especialidad:"
+     TextColor="White"
+     FontSize="Medium"/>
+            <Frame BorderColor="Black" 
+               CornerRadius="5" 
+               Padding="0">
+                <Entry x:Name="txtEspecialidad"
+                   Placeholder="Especialidad"
+                   PlaceholderColor="Black"
+                   TextColor="Black"
+                   HeightRequest="40"
+                   WidthRequest="250"
+                     BackgroundColor="Transparent"
+                     IsEnabled="False"
+                 
+                    IsReadOnly="True"
+                   FontSize="Medium"/>
+            </Frame>
+            <Label Text="Descripción:"
+                TextColor="White"
+                FontSize="Medium"/>
+
+            <Frame BorderColor="Blue" 
+               CornerRadius="5" 
+               Padding="0">
+                <Entry x:Name="txtVeterinarioDES"
+                   Placeholder="Descripción de la especialidad"
+                   PlaceholderColor="Black"
+                   TextColor="Black"
+                   HeightRequest="40"
+                   WidthRequest="250"
+                       IsReadOnly="True"
+                       BackgroundColor="Transparent"
+                       IsEnabled="False"
+                   FontSize="Medium"/>
+            </Frame>
+
+            <Label Text="Fecha:"
+               TextColor="White"
+               FontSize="Medium"/>
+            <Frame BorderColor="Black" 
+               CornerRadius="5"
+               Padding="0"
+               HasShadow="False">
+                <DatePicker x:Name="FechaPicker" 
+                        TextColor="Black"
+                        BackgroundColor="Transparent"
+                        MinimumDate="{x:Static sys:DateTime.Today}"
+                        Date="{Binding Fecha}" 
+                        IsEnabled="False"/>
+            </Frame>
+
+            <Label Text="Notas:"
+               TextColor="White"
+               FontSize="Medium"/>
+            <Frame CornerRadius="5" Padding="0" BorderColor="Black">
+                <Entry x:Name="DescripcionEntry"
+                   Placeholder="Descripción" 
+                   PlaceholderColor="Black"
+                   TextColor="Black"
+                   HeightRequest="40"
+                   WidthRequest="250"
+                   FontSize="Medium"
+                   Text="{Binding Descripcion}" 
+                   IsEnabled="False"/>
+            </Frame>
+
+            <Button x:Name="EditButton" 
+                    CornerRadius="25"
+                    Text="Editar" 
+                     BackgroundColor="Green"
+                    Clicked="OnEditButtonClicked" />
+
+            <Button x:Name="SaveButton" 
+                    CornerRadius="25"
+                    Text="Guardar" 
+                    Clicked="OnSaveButtonClicked" 
+                    BackgroundColor="Green"
+                    IsVisible="False"/>
+
+            <Button Text="Eliminar"
+                    CornerRadius="25"
+                    Clicked="OnDeleteButtonClicked" 
+                    BackgroundColor="	#8B0000"
+                    TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+

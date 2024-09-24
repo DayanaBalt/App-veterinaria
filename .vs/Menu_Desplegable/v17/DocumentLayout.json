@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\citaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\citaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\coursespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\coursespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\coursespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\coursespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\veterinariospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\veterinariospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\veterinariospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\veterinariospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\visualizarcitaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\visualizarcitaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|c:\\users\\varga\\onedrive\\desktop\\menu_desplegable\\menu_desplegable\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0B8A9D24-43F3-40E0-AC21-F673F7D2E849}|Menu_Desplegable\\Menu_Desplegable.csproj|solutionrelative:menu_desplegable\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ce0010b1-93a1-33bb-8d9c-bcc1bf6c4873}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitasPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\CitasPage.xaml.cs",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\CitasPage.xaml.cs",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\CitasPage.xaml.cs",
+              "RelativeToolTip": "Menu_Desplegable\\CitasPage.xaml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:39:24.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VeterinariosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\VeterinariosPage.xaml.cs",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\VeterinariosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\VeterinariosPage.xaml.cs",
+              "RelativeToolTip": "Menu_Desplegable\\VeterinariosPage.xaml.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAA9wHkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:09:18.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\HomePage.xaml.cs",
+              "RelativeToolTip": "Menu_Desplegable\\HomePage.xaml.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAmwIMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:04:15.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VisualizarCitasPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\VisualizarCitasPage.xaml.cs",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\VisualizarCitasPage.xaml.cs",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\VisualizarCitasPage.xaml.cs",
+              "RelativeToolTip": "Menu_Desplegable\\VisualizarCitasPage.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T13:58:56.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoursesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\CoursesPage.xaml",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\CoursesPage.xaml",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\CoursesPage.xaml",
+              "RelativeToolTip": "Menu_Desplegable\\CoursesPage.xaml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T03:48:52.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VeterinariosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\VeterinariosPage.xaml",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\VeterinariosPage.xaml",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\VeterinariosPage.xaml",
+              "RelativeToolTip": "Menu_Desplegable\\VeterinariosPage.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwC8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T03:45:02.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\HomePage.xaml",
+              "RelativeToolTip": "Menu_Desplegable\\HomePage.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T03:50:56.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoursesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\CoursesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Menu_Desplegable\\CoursesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\varga\\OneDrive\\Desktop\\Menu_Desplegable\\Menu_Desplegable\\CoursesPage.xaml.cs",
+              "RelativeToolTip": "Menu_Desplegable\\CoursesPage.xaml.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwFUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:12:46.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

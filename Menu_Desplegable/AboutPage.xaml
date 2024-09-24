@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Conoce a la Creadora"
+             x:Class="Menu_Desplegable.AboutPage"
+             BackgroundColor="gray" >
+
+    <ContentPage.BackgroundImageSource>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="Android" Value="Fon.jpg"  />
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical"
+                     Padding="20"
+                     Spacing="10"
+                     BackgroundColor="#00000"
+                          Opacity="0.8">
+
+                <!-- Card 1 -->
+                <Frame Padding="6"
+                       Margin="10,40"
+                       BorderColor="#41ad90" 
+                       CornerRadius="10"
+                       BackgroundColor="Black"
+                       HasShadow="True">
+                    <StackLayout BackgroundColor="#41ad90">
+                        <Image Source="d.jfif"
+                               HeightRequest="30"
+                               Aspect="AspectFit"
+                               HorizontalOptions="Center" />
+                        <Label Text="Brandy Baltodano"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="Black"
+                               HorizontalOptions="Center"
+                               Margin="0,0,0,0" />
+                        <Label Text="Desarrolladora Frontend, Backend"
+                               FontSize="16"
+                               TextColor="Black"
+                               HorizontalOptions="Center" />
+                        <Label Text="Brandy es un apasionado del diseño de interfaces de usuario y en el desarrollo de aplicaciones móviles y web."
+                               FontSize="14"
+                               TextColor="Black"
+                               HorizontalOptions="Center"
+                               Margin="10,10,10,0"
+                               HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+ 

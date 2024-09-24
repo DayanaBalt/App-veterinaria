@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="Menu_Desplegable.CitasPage">
+    <ContentPage.BackgroundImageSource>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="Android" Value="Fon.jpg" />
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+
+    <StackLayout Orientation="Vertical"
+                     Padding="32"
+                     Spacing="10">
+
+        <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="StartAndExpand"
+                 Spacing="10"
+                 Margin="0,20,0,0">
+
+            <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray" >
+                <Image Source="perro.png"
+                       Aspect="AspectFit"
+                       WidthRequest="50"
+                      HeightRequest="60"/>
+            </Frame>
+            <Label Text="Agendar Citas"
+                        VerticalOptions="Center"
+                        FontSize="30"
+                        TextColor="Black"/>
+        </StackLayout>
+
+        <Frame BorderColor="Blue" 
+               CornerRadius="25"
+               Padding="0"
+               HasShadow="False">
+            <Picker x:Name="UserPicker" 
+              Title="Seleccione un cliente" 
+              TitleColor="Black"
+              TextColor="Black"
+              BackgroundColor="Transparent"/>
+        </Frame>
+
+        <Frame BorderColor="Blue" 
+               CornerRadius="25"
+               Padding="0"
+               HasShadow="False">
+            <Picker x:Name="MascotaPicker" 
+               Title="Seleccione una mascota"
+               TitleColor="Black"
+                TextColor="Black"
+                BackgroundColor="Transparent"/>
+        </Frame>
+
+
+        <Frame  BorderColor="Blue" 
+                CornerRadius="25"
+                Padding="0"
+                HasShadow="False">
+            <Picker x:Name="VeterinarioPicker" 
+                Title="Seleccione un veterinario" 
+                TitleColor="Black"
+                TextColor="Black"
+                BackgroundColor="Transparent"
+                    SelectedIndexChanged="VeterinarioPicker_SelectedIndexChanged"/>
+        </Frame>
+        <Frame  BorderColor="Blue" 
+                CornerRadius="25"
+                Padding="0"
+                HasShadow="False">
+            <DatePicker x:Name="FechaPicker" 
+            TextColor="Black"
+            MinimumDate="{x:Static sys:DateTime.Today}"
+            BackgroundColor="Transparent"
+            Date="{Binding SelectedDate}"
+            Format="D"/>
+
+        </Frame>
+        <Frame BorderColor="Blue" 
+             CornerRadius="52" Padding="5" >
+            <Entry x:Name="txtEspecialidad"
+                Placeholder="especialidad"
+                IsReadOnly="True"
+                 PlaceholderColor="Black"
+                TextColor="Black"/>
+        </Frame>
+        <Frame BorderColor="Blue" 
+      CornerRadius="52" Padding="5" >
+            <Entry x:Name="txtVeterinarioDES"
+            Placeholder="Descripcion "
+            IsReadOnly="True"
+                   
+            PlaceholderColor="Black"
+            TextColor="Black"/>
+        </Frame>
+
+        <Frame BorderColor="Blue" 
+              CornerRadius="52" Padding="5" >
+            <Entry x:Name="DescripcionEntry"
+                    Placeholder="Sintomas"
+                    
+                    PlaceholderColor="Black"
+                    TextColor="Black"/>
+        </Frame>
+
+        <Button Text="Agregar" 
+                CornerRadius="25"
+                Clicked="OnAddCitaButtonClicked" 
+                BackgroundColor="#005227"
+                    TextColor="White"/>
+
+        <ListView x:Name="CitasListView"
+                  ItemSelected="OnCitaSelected"
+                  IsVisible="false">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" BackgroundColor="White"
+                                     IsVisible="false">
+                            <Label Text="{Binding Fecha}" />
+                            <Label Text="{Binding Descripcion}" />
+                            <Label Text="{Binding ClienteNombre}" />
+                            <Label Text="{Binding MascotaNombre}" />
+                            <Label Text="{Binding VeterinarioNombre}" />
+                            <Label Text="{Binding Desc}" />
+
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="Editar" Clicked="OnEditCitaButtonClicked" />
+                                <Button Text="Borrar" Clicked="OnDeleteCitaButtonClicked" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+
+

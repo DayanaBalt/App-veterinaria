@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu_Desplegable.EditarCitaPage">
+    <StackLayout Padding="30">
+        <Label Text="Editar Cita" FontSize="Large" HorizontalOptions="Center" />
+
+        <Label Text="Fecha" />
+        <DatePicker x:Name="FechaPicker" Date="{Binding Fecha}" />
+
+        <Label Text="Descripción" />
+        <Entry x:Name="DescripcionEntry" Text="{Binding Descripcion}" Placeholder="Descripción" />
+
+        <Label Text="Cliente" />
+        <Picker x:Name="UserPicker" Title="Seleccione un cliente" ItemsSource="{Binding Usuarios}" ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding ClienteNombre}" />
+
+        <Label Text="Mascota" />
+        <Picker x:Name="MascotaPicker" Title="Seleccione una mascota" ItemsSource="{Binding Mascotas}" ItemDisplayBinding="{Binding Name}" SelectedItem="{Binding MascotaNombre}" />
+
+        <Label Text="Veterinario" />
+        <Picker x:Name="VeterinarioPicker" Title="Seleccione un veterinario" ItemsSource="{Binding Veterinarios}" ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding VeterinarioNombre}" />
+
+        <Button Text="Guardar" Clicked="OnSaveButtonClicked" />
+    </StackLayout>
+</ContentPage>

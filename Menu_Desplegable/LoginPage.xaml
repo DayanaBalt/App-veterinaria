@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu_Desplegable.LoginPage" NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Content>
+         <Grid>
+            <Image Source="blanca.jpg" Aspect="AspectFill"/>
+            <BoxView Color="gray" Opacity="0.8"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Frame Grid.Row="0" CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray" Margin="130,50,130,0">
+                    <Image Source="perro.png" Aspect="AspectFit" WidthRequest="100" HeightRequest="100"/>
+                </Frame>
+                <StackLayout Grid.Row="1" 
+                             Padding="30,20">
+                    <Label Text="  Usuario" 
+                           TextColor="#071e31" 
+                           FontSize="Medium"/>
+                    
+                    <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                        <Entry x:Name="UsernameEntry"
+                              
+                               PlaceholderColor="Black"
+                               TextColor="Black"/>
+                    </Frame>
+
+                    <Label Text="Contraseña" TextColor="#071e31" FontSize="Medium" />
+                    <Frame CornerRadius="25" Padding="5" BorderColor="Black">
+                        <Entry x:Name="PasswordEntry" 
+                            
+                               PlaceholderColor="Black"
+                               IsPassword="True"
+                               TextColor="Black"/>
+                    </Frame>
+
+                    <Button CornerRadius="25" Text="Iniciar Sesion" BackgroundColor="#005227
+                    " Clicked="OnLoginButtonClicked" TextColor="White" Margin="10,0,0,10"/>
+                    <Button CornerRadius="25" Text="Register" BackgroundColor="#005227" 
+                    Clicked="OnRegisterButtonClicked" TextColor="White" Margin="10,0,0,10"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

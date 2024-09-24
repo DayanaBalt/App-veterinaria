@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Registro Veterinarios"
+             x:Class="Menu_Desplegable.VeterinariosPage">
+
+    <ContentPage.BackgroundImageSource>
+        <OnPlatform x:TypeArguments="FileImageSource">
+            <On Platform="Android" Value="Fon.jpg" />
+        </OnPlatform>
+    </ContentPage.BackgroundImageSource>
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                     Padding="32"
+                     Spacing="10">
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         Spacing="10"
+                         Margin="0,20,0,0" 
+                         x:Name="Agregar"
+                         IsVisible="true">
+                <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray">
+                    <Image Source="perro.png"
+                           Aspect="AspectFit"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                </Frame>
+                <Label Text="Registro de veterinarios"
+                       VerticalOptions="Center"
+                       FontSize="Large"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand"
+                         Spacing="10"
+                         Margin="0,20,0,0" 
+                         x:Name="Lista"
+                         IsVisible="false">
+                <Frame CornerRadius="50" Padding="0" HasShadow="True" BorderColor="Gray">
+                    <Image Source="perro.png"
+                           Aspect="AspectFit"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                </Frame>
+                <Label Text="Lista de veterinarios"
+                       VerticalOptions="Center"
+                       FontSize="Large"
+                       TextColor="White"/>
+            </StackLayout>
+
+            <!-- StackLayout contenedor para los Entry y botones de inserción -->
+            <StackLayout x:Name="entryContainer">
+                <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtNombre"
+                           Placeholder="Nombre"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtApellido"
+                           Placeholder="Apellido"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="52" Padding="10" BorderColor="Black">
+                    <Entry x:Name="txtEspecialidad"
+                           Placeholder="Especialidad"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtTelefono"
+                           Keyboard="Numeric"
+                           Placeholder="Teléfono"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Frame CornerRadius="52" Padding="5" BorderColor="Black">
+                    <Entry x:Name="txtDescripcion"
+                           Placeholder="Descripción"
+                           PlaceholderColor="Black"
+                           TextColor="Black"/>
+                </Frame>
+
+                <Button x:Name="BtnInsert"
+                        CornerRadius="25"
+                        Text="Agregar nuevo Veterinario"
+                        Clicked="BtnInsert_Clicked"
+                        BackgroundColor="#005227"
+                        TextColor="White"/>
+            </StackLayout>
+
+            <Button x:Name="BtnAllUser"
+                    CornerRadius="25"
+                    Text="Obtener veterinarios"
+                    Clicked="BtnAllUser_Clicked"
+                    BackgroundColor="#005227"
+                    TextColor="White"/>
+
+            <Label x:Name="StatusMessage"
+                   FontSize="Medium"
+                   TextColor="White"/>
+
+            <ListView x:Name="userList"
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="10"
+                                   Padding="10"
+                                   BackgroundColor="#87CEFA"
+                                   CornerRadius="10"
+                                   HasShadow="True">
+                               
+                                <StackLayout Orientation="Vertical"
+                                             Spacing="5">
+                                    <Label Text="Nombre:"/>
+                                    <Label Text="{Binding Nombre}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Apellidos:"/>
+                                    <Label Text="{Binding Apellido}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Especialidad:"/>
+                                    <Label Text="{Binding Especialidad}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Descripcion:"/>
+                                    <Label Text="{Binding descripcion}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+                                    <Label Text="Celular:"/>
+                                    <Label Text="{Binding Telefono}"
+                                           FontSize="Small"
+                                           TextColor="Black"/>
+
+                                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+
+                                        <Button Text="Editar" Clicked="Button_Clicked" BackgroundColor="#01796F" TextColor="White" FontSize="Small" WidthRequest="80"/>
+                                        <Button Text="Borrar" Clicked="Button_Clicked_1" BackgroundColor="#01796F" TextColor="White" FontSize="Small" WidthRequest="80"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout>
+                <Button x:Name="BtnAtras"
+                        CornerRadius="25"
+                        Text="Atras"
+                        Clicked="BtnAtras_Clicked"
+                        BackgroundColor="#005227"
+                        IsVisible="false"
+                        TextColor="White"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

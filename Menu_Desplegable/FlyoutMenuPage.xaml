@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Menu_Desplegable"
+             xmlns:X="clr-namespace:System;assembly=netstandard"
+             Title="FlyoutMenu"
+             x:Class="Menu_Desplegable.FlyoutMenuPage"
+             BackgroundColor="#00726c">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="listview" x:FieldModifier="public" SeparatorVisibility="None" BackgroundColor="#00726c">
+                <ListView.Header>
+                    <StackLayout BackgroundColor="#00726c" Padding="10">
+                        <Frame CornerRadius="50" Margin="0,50,0,0" BorderColor="#00726c" HeightRequest="50" WidthRequest="50" HorizontalOptions="Center">
+                            <Image Source="logoPan.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center"/>
+                        </Frame>
+
+                        <Label Text="Veterinaria" FontSize="24" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:FlyoutItemPage}">
+                        <local:FlyoutItemPage Title="Visualizar Citas" IconSource="animalV.png" TargetPage="{x:Type local:VisualizarCitasPage}"/>
+                        <local:FlyoutItemPage Title="Registro Cliente" IconSource="user.png" TargetPage="{x:Type local:HomePage}"/>
+                        <local:FlyoutItemPage Title="Registro de Mascota" IconSource="animals.png" TargetPage="{x:Type local:CoursesPage}"/>
+                        <local:FlyoutItemPage Title="Registro Veterinario" IconSource="veterinary.png" TargetPage="{x:Type local:VeterinariosPage}"/>
+                        <local:FlyoutItemPage Title="Registro de Citas" IconSource="Registro.png" TargetPage="{x:Type local:CitasPage}"/>
+                        <local:FlyoutItemPage Title="Acerca De" IconSource="group.png" TargetPage="{x:Type local:AboutPage}"/>
+                        <local:FlyoutItemPage Title="Logout" IconSource="logout.png" TargetPage="{x:Type local:LoginPage}"/>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10" BackgroundColor="#00726c">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding IconSource}" HeightRequest="24" WidthRequest="24" VerticalOptions="Center"/>
+                                <Label Grid.Column="1" Text="{Binding Title}" FontSize="18" TextColor="White" VerticalOptions="Center" Padding="10,0,0,0"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
